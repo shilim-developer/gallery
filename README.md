@@ -15,7 +15,7 @@ $ git subtree push --prefix=dist origin gh-pages
 ```
 
 #### 路径找不到问题 <br>
-1.修改defaults.js中的```publicPath: '/assets/'```为```publicPath: 'assets/'```
+1.修改defaults.js中的```publicPath: '/assets/'```为```publicPath: 'assets/'``` <br>
 2.修改index.html中的app的路径,修改```/assets/app.js```为```assets/app.js```
 
 #### 收获 <br>
